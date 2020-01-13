@@ -34,14 +34,10 @@ const articleListModule = createSlice({
         id: newId,
         secondMenuList: [],
         thirdMenuList: [],
-        isDropDownOpen: false,
       }
       state.articles[newId] = newArticle;
       state.mainMenus[newId] = newMainMenu;
       state.mainMenuList.push(newId);
-      if (state.mainMenus[String(action.payload)].isDropDownOpen === true) {
-        state.mainMenus[String(action.payload)].isDropDownOpen = false;
-      }
     },
     addNewSecondMenu: (state, action) => {
       const newId = String(state.nextId++);
@@ -53,9 +49,6 @@ const articleListModule = createSlice({
       state.articles[newId] = newArticle;
       state.mainMenus[String(action.payload)].secondMenuList.push(newId);
 
-      if (state.mainMenus[String(action.payload)].isDropDownOpen === true) {
-        state.mainMenus[String(action.payload)].isDropDownOpen = false;
-      }
     },
     addNewThirdMenu: (state, action) => {
       const newId = String(state.nextId++);
@@ -67,9 +60,6 @@ const articleListModule = createSlice({
       state.articles[newId] = newArticle;
       state.mainMenus[String(action.payload)].thirdMenuList.push(newId);
 
-      if (state.mainMenus[String(action.payload)].isDropDownOpen === true) {
-        state.mainMenus[String(action.payload)].isDropDownOpen = false;
-      }
     },
     saveArticle: (state, action) => {
       state.articles[String(action.payload.id)].title = action.payload.title;

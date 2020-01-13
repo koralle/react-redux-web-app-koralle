@@ -29,35 +29,35 @@ Please access [Demo Page](https://react-redux-web-app-koralle.netlify.com)
 
 With npm command,
 
-"""bash
+```bash
 npm install create-react-app demo
 cd demo
 npm install --save @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
-"""
+```
 
 or with yarn command,
 
-"""bash
+```bash
 yarn add create-react-app demo
 cd demo
 yarn add @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
-"""
+```
 
 # Usage
 
 With npm command,
 
-"""
+```bash
 git clone https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
 npm start
-"""
+```
 
-"""bash
+```bash
 git clone https://https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
 yarn start
-"""
+```
 
 # Note
 

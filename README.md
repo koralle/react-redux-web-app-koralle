@@ -30,17 +30,17 @@ Please access [Demo Page](https://react-redux-web-app-koralle.netlify.com)
 With npm command,
 
 ```bash
-npm install create-react-app demo
-cd demo
-npm install --save @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
+git clone https://github.com/koralle/react-redux-web-app-koralle
+cd react-redux-web-app-koralle
+npm install --save react-scripts @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
 ```
 
 or with yarn command,
 
 ```bash
-yarn add create-react-app demo
-cd demo
-yarn add @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
+git clone https://github.com/koralle/react-redux-web-app-koralle
+cd react-redux-web-app-koralle
+yarn add react-scripts @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
 ```
 
 # Usage
@@ -49,14 +49,13 @@ With npm command,
 
 ```bash
 git clone https://github.com/koralle/react-redux-web-app-koralle
+npm install 
 cd react-redux-web-app-koralle
-npm install --save react-scripts
 npm start
 ```
 
 ```bash
-git clone https://https://github.com/koralle/react-redux-web-app-koralle
+git clone https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
-yarn add react-scripts
 yarn start
 ```

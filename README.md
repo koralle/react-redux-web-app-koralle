@@ -16,14 +16,14 @@ Please access [Demo Page](https://react-redux-web-app-koralle.netlify.com)
 
 # Requirement
 
-* NodeJS >= v12.13.1
-* create-react-app >= v3.3.0
-* Yarn >= 1.12.1
-* @redux.js/toolkit >= 1.2.1
-* react-markdown >= 4.3.1
-* react-redux >= 7.1.3
-* @material-ui/core >= 4.8.3
-* @material-ui/icons >= 4.5.1
+* NodeJS = v12.13.1
+* create-react-app = v3.3.0
+* Yarn = 1.12.1
+* @redux.js/toolkit = 1.2.1
+* react-markdown = 4.3.1
+* react-redux = 7.1.3
+* @material-ui/core = 4.8.3
+* @material-ui/icons = 4.5.1
 
 # Installation
 
@@ -32,7 +32,8 @@ With npm command,
 ```bash
 git clone https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
-npm install --save react-scripts @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
+npm install
+npm start
 ```
 
 or with yarn command,
@@ -40,7 +41,8 @@ or with yarn command,
 ```bash
 git clone https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
-yarn add react-scripts @reduxjs/toolkit react-markdown react-redux @material-ui/core @material-ui/icons
+yarn install
+yarn start
 ```
 
 # Usage

@@ -50,11 +50,13 @@ With npm command,
 ```bash
 git clone https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
+npm install --save react-scripts
 npm start
 ```
 
 ```bash
 git clone https://https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
+yarn add react-scripts
 yarn start
 ```

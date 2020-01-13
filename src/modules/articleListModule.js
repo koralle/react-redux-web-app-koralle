@@ -9,7 +9,6 @@ const articleListModule = createSlice({
         id: "1",
         secondMenuList: [],
         thirdMenuList: [],
-        isDropDownOpen: false,
       }
     },
 
@@ -69,13 +68,6 @@ const articleListModule = createSlice({
       state.mainMenus[String(action.payload)].thirdMenuList.push(newId);
 
       if (state.mainMenus[String(action.payload)].isDropDownOpen === true) {
-        state.mainMenus[String(action.payload)].isDropDownOpen = false;
-      }
-    },
-    toggleIsOpen: (state, action) => {
-      if (state.mainMenus[String(action.payload)].isDropDownOpen === false) {
-        state.mainMenus[String(action.payload)].isDropDownOpen = true;
-      } else {
         state.mainMenus[String(action.payload)].isDropDownOpen = false;
       }
     },

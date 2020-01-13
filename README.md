@@ -58,10 +58,3 @@ git clone https://https://github.com/koralle/react-redux-web-app-koralle
 cd react-redux-web-app-koralle
 yarn start
 ```
-
-# Note
-
-# Author
-
-* Kosugiyama Mamoru
-* E-mail:mkhd7930@gmail.com
